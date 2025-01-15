@@ -1,0 +1,40 @@
+.stgm{
+    display: flex;
+    align-items: center;
+}
+.innerdiv1 img{
+    width: 550px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.mainh1{
+    font-size: 80px;
+    font-weight: 900;
+    position: relative;
+    top: 40px;
+    color: black;
+}
+.innerdiv2{
+    display: flex;
+    justify-content: end;
+}
+.mainbtn{
+    all: unset;
+    position: relative;
+    background-color: black;
+    color: white;
+    top: 40px;
+    border: 1px solid black;
+    padding: 10px 60px 10px 60px;
+    display: flex; 
+    transition: 0.4s background ease-in;
+    border-radius: 4px;
+}
+.mainbtn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s background ease-in;
+}
